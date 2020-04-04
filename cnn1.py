@@ -4,7 +4,7 @@ import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
 
 import numpy as np
-from tensorflow import ker
+from tensorflow import keras
 from datetime import datetime
 
 # 그래프 리셋
