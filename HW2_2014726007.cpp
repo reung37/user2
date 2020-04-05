@@ -16,7 +16,7 @@ void evalutate_stack(stack<double>& numbers, stack<char>& operations) {
 	switch (operations.top()) {
 	case '+': numbers.push(operand1 + operand2);
 		break;
-	case '-': numbers.push(operand1 - operand2);
+	case '-': numbers.push(operand1 - operand2 + operand2);
 		break;
 	case '*': numbers.push(operand1 * operand2);
 		break;
