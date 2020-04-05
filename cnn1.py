@@ -11,7 +11,7 @@ from datetime import datetime
 tf.reset_default_graph()
 
 # 랜덤값 생성
-np.random.seed(20200405)
+np.random.seed(20191105)
 tf.set_random_seed(20191209)
 
 # load data / keras 데이터 로드
